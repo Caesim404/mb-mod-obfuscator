@@ -1,0 +1,12 @@
+Compresses and obfuscates Mount&Blade module *.txt files.
+
+This does not make it impossible to decompile your module. But it does make it a harder task. It also helps prevent editing by hand.
+
+
+Requires Python 2.
+Options are inside obfuscate.py.
+
+It writes the obfuscated files to the same directory the *.txt files were. That means the original files are written over.
+
+For easiest use, simply copy it to same directory as your MB source files are and run it.
+It will auto detect *.txt location based on modules_info.py.
